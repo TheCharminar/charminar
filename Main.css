@@ -95,4 +95,13 @@ header.top-nav a:hover {
     width: 100%;
   }
 }
-
+body {
+    background: linear-gradient(135deg, brown, white);
+    padding: 0;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    height: 100vh; 
+    max-width: 100%;
+    margin: 0 auto;
+}
