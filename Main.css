@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f7f7f7;
+  background: #7b4d1c;
   color: #222;
 }
 
@@ -59,13 +59,17 @@ header.top-nav a:hover {
   flex-wrap: wrap;
   gap: 24px;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 1000px;
   margin: 0 auto;
-  background: #fff;
+  background: #000;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.vertical {
+  flex-direction: column;
 }
 
 .hero-image {
@@ -73,6 +77,8 @@ header.top-nav a:hover {
   width: 380px;
   border-radius: 10px;
   object-fit: cover;
+  flex-shrink: 0;
+  margin: 0 auto 20px auto;
 }
 
 .hero-text {
@@ -95,18 +101,24 @@ header.top-nav a:hover {
     width: 100%;
   }
 }
-body {
-    background: linear-gradient(135deg, brown, white);
-    padding: 0;
-    display: flex; 
-    flex-direction: column;
-    align-items: center; 
-    height: 100vh; 
-    max-width: 100%;
-    margin: 0 auto;
-}
 
 .QutbShah {
-    height: 105px;
-    width: 100%;
-  }
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.charminartext {
+   display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 500px;
+}
+
+.ColorText {
+  color: yellow;
+  font-size: 18px;
+}
