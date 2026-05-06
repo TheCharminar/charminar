@@ -43,6 +43,19 @@ header.top-nav a:hover {
   text-decoration: underline;
 }
 
+/* Link styling for main content */
+a {
+  color: #0066cc;
+}
+
+a:visited {
+  color: #0066cc;
+}
+
+a:hover {
+  color: #0052a3;
+}
+
 .page-content {
   padding: 100px 20px 40px;
   max-width: 1100px;
